@@ -1,33 +1,55 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flashcards</title>
+[11:24, 7/28/2025] juju: !DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartões de Estudo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="cartoes">
+    <article class="cartao">
+      <div class="cartao__conteudo">
+        <!-- Frente do cartão -->
+        <div class="cartao__frente">
+          <h3 class="cartao__categoria">Categoria: História</h3>
+          <p class="cartao__pergunta">Quem descobriu o Brasil?</p>
+        </div>
 
-    <link rel="stylesheet" href="assets/style.css" />
-
-    </head>
-  <body>
-    <h1><Flashcards/Flashcards></h1>
-
-    <div id="flashcards-container">
-      <div class="flashcard">
-        <h2>Programação</h2>
-        <p class="flashcard-question">O que é JavaScript?</p>
-        <p class="flashcard-answer">O JavaScript é uma linguagem de programação.</p>
+        <!-- Verso do cartão -->
+        <div class="cartao__verso">
+          <p class="cartao__resposta">Pedro Álvares Cabral.</p>
+        </div>
       </div>
+    </article>
 
-      <div class="flashcard">
-        <h2>Programação</h2>
-        <p class="flashcard-question">O que é CSS?</p>
-        <p class="flashcard-answer">O CSS é uma linguagem de estilização.</p>
+    <!-- Adicione mais cartões conforme necessário -->
+    <article class="cartao">
+      <div class="cartao__conteudo">
+        <div class="cartao__frente">
+          <h3 class="cartao__categoria">Categoria: Geografia</h3>
+          <p class="cartao__pergunta">Qual é a capital da França?</p>
+        </div>
+        <div class="cartao__verso">
+          <p class="cartao__resposta">Paris.</p>
+        </div>
       </div>
-
-      </div>
-
-    <footer>
-      <p>© 2025 Flashcards Todos os direitos reservados</p>
-    </footer>
-  </body>
+    </article>
+  </section>
+</body>
+</html>
+[11:36, 7/28/2025] juju: <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartões de Estudo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="container" class="cartoes">
+    <!-- Os cartões serão inseridos aqui via JavaScript -->
+  </section>
+  <script src="perguntas.js"></script>
+</body>
 </html>
